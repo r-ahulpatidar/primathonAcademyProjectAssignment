@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    text-align: center;
+    font-size: 1.6rem;
+}
+.main {
+    margin: 40px 12px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 15px;
+}
+h1 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+p {
+    margin: 1.6rem;
+}
+.img-container {
+    background-color: white;
+}
+.img-container img {
+    display: block;
+    margin: 0 auto;
+}
+figcaption {
+    margin: 1.5rem 0;
+}
+ul {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+ul li {
+    margin: 1.5rem 0;
+}
