@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS assignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 100%;
+            height: 90vh;
+            position: relative;
+        } 
+        .div1 {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            background-color: rgba(60, 60, 60, 0.4);
+            padding: 10px 20px;
+            width: 45%;
+            color: white;
+        }
+        
+        .div2 {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            background-color: rgba(60, 60, 60, 0.4);
+            width: 50%;
+            height: 90vh;
+            padding: 25px;
+        }
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .box1 {
+            background-color: black;
+            color: white;
+            padding: 44px 0;
+            text-align: center;
+            flex: 0 0 30%;
+            
+        }
+        .box1 h1 {
+            margin-bottom: 0px;
+        }
+        .box1 p {
+            margin-top: 0px;
+            font-size: 18px;
+        }
+        .box2 {
+            background-color: white;
+            padding-left: 15px;
+            flex: 1 0;
+        }
+        button {
+            padding: 10px;
+            color: blue;
+            font-size: 15px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .div1:hover {
+            background-color: rgb(238, 13, 107);
+            color: white;
+        }
+        .box1:hover {
+            background-color: rgb(238, 13, 107);
+            color: white;
+        }
+        button:hover {
+            background-color: rgb(238, 13, 107); 
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="./image/img1.jpeg" alt="eveningImage" />
+    <div class="div1">
+        <h1>EVENTS AND SHOWS</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit corporis aspernatur eum quo, dolor vel qui illum nesciunt maiores officiis, earum repudiandae aut expedita doloribus quam, nobis odit aliquid deserunt exercitationem quisquam praesentium consequatur aperiam laudantium. Esse inventore fugit eos a tenetur ut similique, ipsum repudiandae amet quia cumque.</p>
+    </div>
+    <div class="div2">
+        <div class="box">
+            <div class="box1">
+                <h1>15</h1>
+                <p>March</p>
+            </div>
+            <div class="box2">
+                <h4>Where is the event happening?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto animi deleniti, delectus sed fuga aliquid eius, reprehenderit incidunt suscipit dignissimos? Illo a reiciendis eaque iusto, officia temporibus vitae recusandae.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <h1>27</h1>
+                <p>May</p>
+            </div>
+            <div class="box2">
+                <h4>Where is the event happening?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto animi deleniti, delectus sed fuga aliquid eius, reprehenderit incidunt suscipit dignissimos? Illo a reiciendis eaque iusto, officia temporibus vitae recusandae.</p>
+                <button>View Details</button>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="box1">
+                <h1>12</h1>
+                <p>August</p>
+            </div>
+            <div class="box2">
+                <h4>Where is the event happening?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto animi deleniti, delectus sed fuga aliquid eius, reprehenderit incidunt suscipit dignissimos? Illo a reiciendis eaque iusto, officia temporibus vitae recusandae.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
